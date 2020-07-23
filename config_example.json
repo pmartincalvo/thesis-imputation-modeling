@@ -1,0 +1,9 @@
+{
+  "results_path": "data/results/",
+  "experiments_paths": [
+    "experiments/e1.json",
+    "experiments/e2.json",
+    "experiments/e3.json",
+    "experiments/e4.json"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "dataset_file_path": "/path/to/datset.csv",
+    "model_per_buurt": true,
+    "target_column_name": "preasure_total",
+    "buurt_dividider_column_name": "buurtcode",
+    "feature_column_nickname": "some_feature_group",
+    "feature_column_names": [
+        "feature1",
+        "feature2",
+        "feature3"
+    ],
+    "cols_to_one_hot_encode":
+    ["feature4"],
+    "number_of_folds": 5,
+    "get_feature_importance": false,
+    "random_seed": 42,
+    "get_rmse": true,
+    "get_r2": true,
+    "model_definition": {
+        "regressor": "gbm",
+        "n_estimators": 100,
+        "max_depth": 3,
+        "max_features_method": "sqrt",
+        "n_jobs": 10
+    },
+    "name": "my_first_experiment"
+}
