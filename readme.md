@@ -2,7 +2,7 @@
 
 ## What is this?
 This repository contains the code used for training and evaluating imputation models in my Master's Thesis (which can be
- found here).
+ found here: PENDING).
 
 ## What is it useful for?
 The code can be used for training and evaluating RandomForest and GradientBoostingMachine regressors on a dataset. The 
