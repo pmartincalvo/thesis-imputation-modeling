@@ -1,6 +1,6 @@
 dataclasses==0.7
 joblib==0.16.0
-numpy==1.19.0
+numpy==1.22.0
 pandas==1.0.5
 pkg-resources==0.0.0
 python-dateutil==2.8.1
